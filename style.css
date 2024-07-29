@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(39, 16, 102) !important; 
+}
+nav{
+    box-shadow: 5px 5px 94px white;
+}
+.container{
+    margin-top: 40px;
+    padding: 50px;
+    border: 1px solid white;
+}
+.container form{
+    padding: 30px;
+}
+span.btns {
+    display: flex;
+    height: 30px;
+    width: 70px;
+    border: 1px solid black;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(22, 31, 160);
+    transition: all 0.5s ease;
+    border-radius: 3px;
+    margin: 14px;
+    color: white;
+}
+.btnc {
+    display: flex;
+    height: 30px;
+    width: 70px;
+    border: 1px solid black;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(22, 31, 160);
+    transition: all 0.5s ease;
+    border-radius: 3px;
+    margin: 7px 14px;
+    color: white;
+}
+
+.bg {
+    width: 70px;
+    height: 27px;
+    position: absolute;
+    z-index: -1;
+    border: 1px solid rgb(59, 156, 201);
+    transition: transform 0.5s !important;
+}
+
+.bg1 {
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    z-index: -1;
+    border: 1px solid rgb(59, 156, 201);
+    transition: transform 0.5s !important;
+}
+
+.bg2 {}
+
+.btns:hover .bg {
+    transform: translateX(5px);
+}
+
+.btns:hover .bg2 {
+    transform: translateX(-5px);
+}
+
+.btns:hover .bg1 {
+    transform: translateX(15px);
+}
+
+.btns:hover .bg3 {
+    transform: translateX(-15px);
+}
+
+.btns:hover {
+    box-shadow: 0 0 20px rgba(59, 156, 201,1), 0 0 40px rgba(59, 156, 201,1), 0 0 60px rgba(59, 156, 201,1);
+}
+.bg2 {}
+
+.btnc:hover .bg {
+    transform: translateX(5px) !important;
+}
+
+.btnc:hover .bg2 {
+    transform: translateX(-5px) !important;
+}
+
+.btnc:hover .bg1 {
+    transform: translateX(15px) !important;
+}
+
+.btnc:hover .bg3 {
+    transform: translateX(-15px) !important;
+}
+
+.btnc:hover {
+    box-shadow: 0 0 20px rgba(59, 156, 201,1), 0 0 40px rgba(59, 156, 201,1), 0 0 60px rgba(59, 156, 201,1);
+}
+hr{
+    color: white !important;
+}
+.order{
+    color: white;
+}
